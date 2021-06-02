@@ -1,0 +1,15 @@
+body, .row, ul, ol, p, {
+	list-style: none;
+	text-decoration: none !important;
+	margin: 0px;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+a:hover {
+	text-decoration: none;
+}
+*:focus {
+	outline: none !important
+}
