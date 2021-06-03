@@ -469,3 +469,15 @@ ul.socialMedia a {
 footer {
     border-top: 1px solid #70707057;
 }
+.copyright {
+    border-top: 1px solid #ccc;
+    padding: 12px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.copyright p {
+    opacity: 0.4;
+}
