@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;600;700;800;900&display=swap');
 * {
-	font-family: 'Overpass', sans-serif;
+    font-family: 'Overpass', sans-serif;
 }
 body, .row, ul, ol, p {
-	list-style: none;
-	text-decoration: none !important;
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Overpass', sans-serif;
+    list-style: none;
+    text-decoration: none !important;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Overpass', sans-serif;
 }
 img {
-	display: block;
-	max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 *:focus {
-	outline: none !important
+    outline: none !important
 }
 .innerHeader {border-bottom: 1px solid rgb(112 112 112 / 20%);}
 
@@ -43,7 +43,7 @@ a:hover {
     /* max-width: max-content; */
 }
 
-.container {width: 100%;max-width: 1440px;}
+.container {width: 100%;max-width: 1740px;padding: 0px 40px;}
 .sectionAbout {
     background-size: contain;
     min-height: 600px;
@@ -233,16 +233,16 @@ a:hover {
 }
 
 .innerSlidertestimonials h6:after {
-	content: "";
-	display: block;
-	width: 15px;
-	height: 2px;
-	background: black;
-	position: absolute;
-	left: 0;
-	top: 0;
-	bottom: 0;
-	margin: auto;
+    content: "";
+    display: block;
+    width: 15px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 .minCOntainer h2 {
@@ -263,16 +263,16 @@ a:hover {
     overflow: visible;
 }
 .minCOntainer h2:after {
-	content: "";
-	display: block;
-	width: 100%;
-	background: #707070;
-	height: 1px;
-	position: absolute;
-	bottom: -20px;
-	z-index: 2;
-	right: -50%;
-	max-width: 100%;
+    content: "";
+    display: block;
+    width: 100%;
+    background: #707070;
+    height: 1px;
+    position: absolute;
+    bottom: -20px;
+    z-index: 2;
+    right: -50%;
+    max-width: 100%;
 }
 
 
@@ -364,18 +364,18 @@ a:hover {
     background: #000;
 }
 .leftAbout h2::after {
-	content: "";
-	display: block;
-	width: 100%;
-	background: #7070707d;
-	height: 1px;
-	max-width: 280px;
-	margin-left: auto;
-	margin-right: -120px;
-	bottom: -35px;
-	top: auto;
-	position: absolute;
-	right: -30px;
+    content: "";
+    display: block;
+    width: 100%;
+    background: #7070707d;
+    height: 1px;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: -120px;
+    bottom: -35px;
+    top: auto;
+    position: absolute;
+    right: -30px;
 }
 
 .leftAbout h2 {
