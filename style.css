@@ -481,3 +481,46 @@ footer {
 .copyright p {
     opacity: 0.4;
 }
+.shopPage {
+    margin: 50px 0px;
+}
+
+.contentWrapper h4 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #000;
+}
+
+.contentWrapper {
+    margin: 20px 0px 60px;
+}
+
+.contentWrapper p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #191919;
+}
+.categories a {
+    display: block;
+    margin-top: 19px;
+    color: #000000;
+    opacity: 0.6;
+    font-weight: 300;
+}
+
+.categories h2 {
+    font-weight: 800;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.categories a:hover {
+    opacity: 1;
+}
+
+.categories {
+    border-right: 1px solid #7070702e;
+    max-width: 84%;
+    position: sticky;
+    top: 40px;
+}
