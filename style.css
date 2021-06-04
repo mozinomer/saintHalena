@@ -995,6 +995,12 @@ p.please {
 .sliderContainerProduct .slick-list {
     margin: 0 -10px;
 }
+.sliderContainerProductsLike .slick-slide {
+    margin: 0 10px;
+}
+.sliderContainerProductsLike .slick-list {
+    margin: 0 -10px;
+}
 .NameProfiler h4 {
     font-weight: 700;
     font-size: 16px;
@@ -1094,18 +1100,29 @@ footer .col-md-4 {
 
 
 .label .number{
-    margin:100px;
+    margin: 0;
+    display: flex;
 }
 .label .minus, .label .plus{
     width:20px;
-    height:20px;
+    /* height:20px; */
     background:#f2f2f2;
     border-radius:4px;
-    padding:8px 5px 8px 5px;
+    /* padding:8px 5px 8px 5px; */
     border:1px solid #ddd;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    border: 1px solid #E0E0E0;
+    background: none;
+    border-radius: 0;
+    width: 40px;
+    cursor: pointer;
+    user-select: none;
 }
 .label input{
     height:34px;
@@ -1116,4 +1133,194 @@ footer .col-md-4 {
     border-radius:4px;
     display: inline-block;
     vertical-align: middle;
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 70px;
+    height: 36px;
+    border: 1px solid #E0E0E0;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.sliderMainImageProduct, .sliderMainImageProduct * {
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.innerSlidesTThnumbs img {max-height: 100px;}
+
+.sliderThumbs {
+    max-width: 70px;
+    margin: 20px auto;
+}
+
+.panellBodyContainerPoriduct {
+    padding: 50px 0px;
+}
+
+.productDetailInner h2 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+p.prices {
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.6;
+    margin: 20px 0px;
+}
+
+p.descriptions {
+    line-height: 24px;
+    font-weight: 300;
+    font-size: 14px;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+.label .minus:hover, .label .plus:hover {
+    background: #000;
+    color: #fff;
+}
+
+.label select {
+    display: block;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #E0e0e0;
+    padding: 0px 10px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.label label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+div#sizeQuantity {
+    margin: 0px -15px 30px;
+    max-width: 500px;
+}
+
+.cartButtons {
+    max-width: 500px;
+}
+
+.panellBodyContainerPoriduct .container {
+    max-width: 1200px;
+}
+
+.addtoCart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+    border: 2px solid #000;
+    transition: 0.6s all;
+}
+
+.addtoCart:hover {
+    background: #000;
+    color: #fff;
+}
+
+.buyItNow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 20px 0px;
+    border: 2px solid #000;
+    transition: 0.6s all;
+}
+
+.buyItNow:hover {
+    background: none;
+    color: #000;
+}
+
+.tabss {
+    margin: 100px 0px;
+}
+
+.menutabs {
+    border: 1px solid #E5E5E5;
+    border-left: 0;
+    border-right: 0;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+
+.menutabs p {
+    display: none;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 20px 0px 0px;
+}
+
+.menutabs h6 {
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    /* cursor: pointer; */
+    margin: 0px;
+}
+
+.menutabs h6::after {
+    content: "+";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productsMayLike h2, .productsMayLike h6 {
+    text-align: center;
+}
+
+.productsMayLike h6 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.productsMayLike h2 {
+    font-weight: 800;
+    font-size: 38px;
+}
+
+.contentImageWtapper h4 {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.contentImageWtapper {
+    margin: 20px 0px;
+}
+
+.contentImageWtapper p {
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.6;
+}
+.imageWrapperLike img {
+    max-height: 400px;
+    object-fit: cover;
 }
