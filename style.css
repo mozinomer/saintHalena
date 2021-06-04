@@ -1324,3 +1324,57 @@ div#sizeQuantity {
     max-height: 400px;
     object-fit: cover;
 }
+.sliderContainerProductsLike {
+    padding: 0px 40px;
+    margin: 50px 0px;
+}
+
+.sliderContainerProductsLike .slick-arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    font-size: 0;
+    background: none;
+    border: none;
+    top: -80px;
+}
+
+.sliderContainerProductsLike .slick-arrow:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.sliderContainerProductsLike .slick-next {
+    right: 0;
+}
+
+.sliderContainerProductsLike .slick-next:after {
+    transform: rotate(45deg);
+    border-left: 0;
+    border-bottom: 0;
+    left: -6px;
+}
+
+.sliderContainerProductsLike .slick-prev {
+    left: 0;
+}
+
+.sliderContainerProductsLike .slick-prev::after {
+    transform: rotate(45deg);
+    border-top: 0;
+    border-right: 0;
+    left: -10px;
+}

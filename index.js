@@ -12,34 +12,55 @@ $('.slider-nav').slick({
 	dots: true,
 	centerMode: true,
 	focusOnSelect: true
-});$('.sliderContainerMain').slick({
+});
+$('.sliderContainerMain').slick({
 	slidesToShow: 1,
 	dots: true,
 	centerMode: false,
 	infinite: false,
 	arrows: true,	
-})
+});
 $('.sliderContainerProduct').slick({
 	slidesToShow: 4.3,
 	dots: false,
 	centerMode: false,
 	infinite: false,
 	arrows: true,	
-})
+	responsive: [
+	{
+		breakpoint: 767,
+		settings: {
+			slidesToShow: 1.4,
+			slidesToScroll: 1,
+			centerMode: false,
+
+		}
+	},
+	]
+});
 $('.slidertestimonials').slick({
 	slidesToShow: 1,
 	dots: false,
 	centerMode: false,
 	infinite: false,
 	arrows: true,	
-})
+	responsive: [
+	{
+		breakpoint: 767,
+		settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+		}
+	}
+	]
+});
 $('.sliderContainerProductsLike').slick({
 	slidesToShow: 4,
 	dots: false,
 	centerMode: false,
 	infinite: false,
 	arrows: true,	
-})
+});
 $(document).ready(function() {
 	$('.minus').click(function () {
 		var $input = $(this).parent().find('input');
