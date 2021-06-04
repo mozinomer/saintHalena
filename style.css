@@ -535,29 +535,41 @@ footer {
 }
 /* waleed Css */
 section.about-main {
-    height: 70vh;
+    height: auto;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    margin-bottom: 400px;
+    margin-bottom: 50px;
+    background-size: 100% 80%;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 24%;
 }
 .iner-abt {
-    position: absolute;
+    /* position: absolute; */
     background: #F2F2F2;
     padding: 60px 60px 60px 80px;
     max-width: 75%;
-    right: 0;
-    top: 120px;
+    /* right: 0; */
+    /* top: 120px; */
+    margin-top: -170px;
 }
 .iner-abt h4 {
     opacity: .5;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .iner-abt p {
     opacity: .5;
     max-width: 80%;
     margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
 }
 .contact-flex {
     display: flex;
@@ -1049,6 +1061,27 @@ footer .col-md-4 {
 .relatedArticles {
     position: sticky;
     top: 50px;
-    max-width: 80%;
+    max-width: 60%;
     margin: auto;
+}
+.iner-abt h2 {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.map {
+    height: 100%;
+    /*background: red;*/
+    filter: grayscale(1);
+}
+
+.map iframe {
+    height: 100%;
+}
+.description h5 {font-weight: 800;font-size: 15px;}
+
+.description p {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
 }
