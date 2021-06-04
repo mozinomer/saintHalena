@@ -36,6 +36,7 @@ a:hover {
     padding: 20px 10px;
     display: block;
     color: #000;
+    font-size: 15px;
 }
 
 .innerHeader .row {
@@ -53,6 +54,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    margin: 100px 0px;
 }
 
 .sectionAbout .row {
@@ -84,7 +86,7 @@ a:hover {
     border: 2px solid #000;
     transition: 0.5s all;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .buttonBlack:hover {
@@ -93,13 +95,13 @@ a:hover {
 }
 
 .subHeading {
-    font-size: 24px;
+    font-size: 20px;
     color: #000;
     opacity: 0.5;
     font-weight: 500;
 }
 .heading {
-    font-weight: 600;
+    font-weight: 800;
     font-size: 67px;
     position: relative;
 }
@@ -154,18 +156,19 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
+    max-width: 86%;
 }
 
 .headerProductSlider h2 {
     font-size: 27px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .headerProductSlider a {
     color: #000;
     opacity: 0.6;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 300;
     text-decoration: underline;
 }
 
@@ -184,14 +187,14 @@ a:hover {
 }
 
 .contentContainerFUllHOmepage h2 {
-    font-size: 64px;
+    font-size: 52px;
     max-width: 200px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .contentContainerFUllHOmepage p {
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 13px;
+    line-height: 24px;
     font-weight: 300;
     color: #707070;
     margin: 20px 0px 40px;
@@ -212,7 +215,7 @@ a:hover {
     background: #F2F2F2;
     padding: 90px;
     margin-left: 93px;
-    z-index: -1;
+    /* z-index: -1; */
     position: relative;
 }
 
@@ -222,15 +225,15 @@ a:hover {
 
 .innerSlidertestimonials p {
     color: #000000;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 100;
-    line-height: 31px;
+    line-height: 32px;
     margin-bottom: 30px;
 }
 
 .innerSlidertestimonials h6 {
-    font-weight: 600;
-    font-size: 24px;
+    font-weight: 800;
+    font-size: 19px;
     position: relative;
     padding-left: 29px;
 }
@@ -289,7 +292,7 @@ a:hover {
 }
 
 .absContent h4 {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 200;
     color: #000000;
     opacity: 0.5;
@@ -297,12 +300,12 @@ a:hover {
 
 .absContent h2 {
     font-weight: 800;
-    font-size: 33px;
+    font-size: 32px;
 }
 
 .newsSection h4 {
     text-align: center;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 200;
     color: #000000;
     opacity: 0.5;
@@ -320,8 +323,8 @@ a:hover {
 }
 
 .containerBlogContent h3 {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 800;
     color: #000;
 }
 
@@ -330,7 +333,7 @@ a:hover {
 }
 
 .postedDate {
-    font-size: 15px;
+    font-size: 13px;
     color: #000000;
     opacity: 0.5;
     margin: 15px 0px 20px;
@@ -338,7 +341,7 @@ a:hover {
 }
 
 .containerBlogContent p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 24px;
     font-weight: 400;
     overflow: hidden;
@@ -357,7 +360,7 @@ a:hover {
     color: #000000;
     max-width: max-content;
     padding: 10px 35px;
-    font-size: 14px;
+    font-size: 12px;
     margin: 20px 0px 0px;
     transition: 0.5s all;
 }
@@ -405,7 +408,7 @@ img.section2Images {
 
 .newsLetterCOntainer p {
     line-height: 22px;
-    font-size: 16px;
+    font-size: 14px;
     opacity: 0.6;
 }
 
@@ -433,7 +436,7 @@ img.section2Images {
 
 .menuCOntainers h6 {
     font-weight: 800;
-    font-size: 21px;
+    font-size: 18px;
     margin-bottom: 30px;
     color: #000;
 }
@@ -452,6 +455,7 @@ footer .col-md-8 {
     color: #000;
     opacity: 0.4;
     font-weight: 300;
+    font-size: 14px;
 }
 
 ul.socialMedia {
@@ -483,13 +487,14 @@ footer {
 
 .copyright p {
     opacity: 0.4;
+    font-size: 13px;
 }
 .shopPage {
     margin: 50px 0px;
 }
 
 .contentWrapper h4 {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 800;
     color: #000;
 }
@@ -499,7 +504,7 @@ footer {
 }
 
 .contentWrapper p {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 300;
     color: #191919;
 }
@@ -509,6 +514,7 @@ footer {
     color: #000000;
     opacity: 0.6;
     font-weight: 300;
+    font-size: 14px;
 }
 
 .categories h2 {
@@ -570,6 +576,8 @@ section.about-main {
 }
 .contact-heading h4 {
     opacity: .5;
+    font-size: 15px;
+    font-weight: 300;
 }
 .contact-heading {
     margin-bottom: 40px;
@@ -604,23 +612,37 @@ section.about-main {
 
 .news-width h3 {
     margin: 20px 0;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 15px;
 }
 
 .news-width span {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     display: block;
     opacity: .5;
+    font-size: 13px;
+    font-weight: 300;
 }
 
 a.read-more {
-    padding: 10px 30px;
-    display: inline-block;
+    padding: 6px 30px;
+    display: flex;
     border: 1px solid #c5c5c5;
     color: #000;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    font-weight: 600;
+    font-size: 13px;
+    transition: 0.6s all;
 }
 
 .news-width p {
     margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 23px;
 }
 .news-detail-flex {
     display: flex;
@@ -752,4 +774,225 @@ a.btna {
 p.please {
     text-align: left;
     opacity: .6;
+}
+
+.bannerMain .slick-next, .bannerMain .slick-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+    width: 40px;
+    height: 40px;
+    margin: auto 40px;
+    z-index: 9999;
+    background: #ffff;
+    font-size: 0;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.bannerMain .slick-next {
+    right: 0;
+}
+
+.bannerMain .slick-next::after, .bannerMain .slick-prev::after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(125deg);
+}
+
+.bannerMain .slick-next::after {
+    transform: rotate(315deg);
+    left: -3px;
+}
+
+.bannerMain .slick-next:hover::after, .bannerMain .slick-prev:hover::after {
+    border-color: #fff;
+}
+
+.bannerMain .slick-next:hover, .bannerMain .slick-prev:hover {
+    background: #000;
+    border-color: #000;
+}
+.bannerMain .slick-dots {
+    position: absolute;
+    bottom: 0px;
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    left: 0;
+    right: 0;
+}
+
+.bannerMain .slick-dots li {
+    margin: 0px 20px;
+    background: none;
+}
+
+.bannerMain .slick-dots li button {
+    background: none;
+    color: #fff;
+    opacity: 0.4;
+    border: none;
+    font-weight: 300;
+}
+
+.bannerMain .slick-dots li.slick-active button {
+    color: #fff;
+    opacity: 1;
+}
+.slidertestimonials .slick-next {
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    background: none;
+    border: none;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.slidertestimonials .slick-next:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(-55deg);
+}
+.slidertestimonials .slick-prev {
+    position: absolute;
+    right: 8%;
+    top: 15%;
+    background: none;
+    border: none;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.slidertestimonials .slick-prev:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(125deg);
+}
+
+.sliderContainerProduct .slick-next {
+    position: absolute;
+    right: 7%;
+    top: -12.1%;
+    background: none;
+    border: none;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.sliderContainerProduct .slick-next:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(-55deg);
+}
+.sliderContainerProduct .slick-prev {
+    position: absolute;
+    right: 8%;
+    top: -12%;
+    background: none;
+    border: none;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    z-index: 9999;
+}
+
+.sliderContainerProduct .slick-prev:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(125deg);
+}
+.sliderContainerProduct .slick-slide {
+    margin: 0 10px;
+}
+.sliderContainerProduct .slick-list {
+    margin: 0 -10px;
+}
+.NameProfiler h4 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.NameProfiler {
+    margin: 20px 0px;
+}
+
+.NameProfiler p {
+    font-size: 14px;
+    opacity: 0.4;
+    font-weight: 400;
+}
+.contact-heading h2 {
+    font-size: 37px;
+    font-weight: 800;
+}
+
+a.read-more:hover {
+    background: #000;
+    color: #fff;
+    border-color: #000;
+    transition: 0.6s all;
 }

@@ -7,7 +7,7 @@ $('.sliderContainerMain').slick({
 })
 $('.sliderContainerProduct').slick({
 	slidesToShow: 4.3,
-	dots: true,
+	dots: false,
 	centerMode: false,
 	infinite: false,
 	arrows: true,	
