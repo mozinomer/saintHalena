@@ -1077,6 +1077,9 @@ footer .col-md-4 {
 
 .map iframe {
     height: 100%;
+    user-select: none;
+    pointer-events: none;
+    cursor: none;
 }
 .description h5 {font-weight: 800;font-size: 15px;}
 
@@ -1084,4 +1087,33 @@ footer .col-md-4 {
     font-size: 13px;
     line-height: 24px;
     font-weight: 300;
+}
+
+
+
+
+
+.label .number{
+    margin:100px;
+}
+.label .minus, .label .plus{
+    width:20px;
+    height:20px;
+    background:#f2f2f2;
+    border-radius:4px;
+    padding:8px 5px 8px 5px;
+    border:1px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.label input{
+    height:34px;
+    width: 100px;
+    text-align: center;
+    font-size: 26px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    display: inline-block;
+    vertical-align: middle;
 }
