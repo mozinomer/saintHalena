@@ -656,6 +656,7 @@ a.read-more {
 
 .details-width1 {
     width: 40%;
+    position: relative;
 }
 
 .square-flex {
@@ -677,17 +678,23 @@ a.read-more {
     opacity: .6;
     margin-bottom: 30px;
     margin-top: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
 }
 .details-width .contact-heading {
     margin-bottom: 20px;
 }
 .details-width1 h3 {
-    font-size: 22px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .relate h3 {
     border-bottom: 1px solid rgb(112 112 112 / 20%);
     padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 800;
 }
 
 .realate {
@@ -696,16 +703,18 @@ a.read-more {
 
 .realate span {
     opacity: .4;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 300;
 }
 .login-flex {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
 }
 .under-login {
     margin: 0% 10%;
+    /* padding: 40px 0px; */
 }
 .login-width {
     width: 40%;
@@ -731,6 +740,9 @@ input:focus{
     text-transform: uppercase;
     font-size: 14px;
     margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 300;
+    opacity: 0.9;
 }
 .under-login p {
     text-align: right;
@@ -995,4 +1007,48 @@ a.read-more:hover {
     color: #fff;
     border-color: #000;
     transition: 0.6s all;
+}
+.under-login h2 {
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 42px;
+}
+
+.login-width1 img {height: 100%;object-fit: cover;}
+
+.form-main {
+    margin-bottom: 40px;
+}
+
+.form-group input::placeholder {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.under-login button:hover {
+    background: none;
+    color: #000;
+}
+
+.under-login button {
+    transition: 0.6s all;
+    border: 2px solid #000;
+}
+
+a.btna:hover {
+    background: #000;
+    color: #fff;
+}
+
+a.btna {
+    transition: 0.6s all;
+}
+footer .col-md-4 {
+    padding: 0px;
+}
+.relatedArticles {
+    position: sticky;
+    top: 50px;
+    max-width: 80%;
+    margin: auto;
 }
