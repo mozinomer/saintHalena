@@ -92,8 +92,24 @@ $(document).ready(function() {
 		centerMode: false,
 		focusOnSelect: true,
 		dots: false,
+		responsive: [
+		{
+			breakpoint: 767,
+			settings: {
+				slidesToShow: 6,
+				slidesToScroll: 1,
+				centerMode: false,
+				vertical: false,
+
+			}
+		},
+		]
 	});
 	$('.menutabs').click( function(e) {
 		$(this).find('p').slideToggle();
+	})
+	$('#hamburger').click( function(e) {
+		$(this).toggleClass('active')
+		$('.innerColumnRightHeader').slideToggle();
 	})
 });

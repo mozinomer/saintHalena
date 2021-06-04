@@ -1378,3 +1378,6 @@ div#sizeQuantity {
     border-right: 0;
     left: -10px;
 }
+.sliderThumbs .slick-arrow {
+    display: none !important;
+}
